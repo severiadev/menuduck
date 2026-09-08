@@ -2,7 +2,7 @@
 
 [MenuDuck](README.md) · [Support](SUPPORT.md)
 
-This is a practical description of the current invited-alpha implementation. It is not a claim that the app or its hosting providers process no data. No downloadable alpha has been published yet; review this page again with the first release.
+This page describes the alpha's data handling, including online requests and server records.
 
 ## On your Mac
 

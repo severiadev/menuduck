@@ -7,20 +7,19 @@
 <p align="center">A menu-bar utility for macOS 26+.</p>
 
 <p align="center">
-  English ·
-  <a href="README.ru.md">Русский</a>
+  English · <a href="README.ru.md">Русский</a> · <a href="README.es.md">Español</a> · <a href="README.zh-Hans.md">简体中文</a>
 </p>
 
 - Hide and reveal menu-bar icons, with auto-hide and keyboard shortcuts.
 - Mask the notch, adjust screen corners, or move the menu bar below the camera on supported displays.
-- Optional plugins: **Stay Awake** keeps your Mac awake; **Network Speed** shows upload and download rates. Both will be free in the alpha.
+- Optional plugins: **Stay Awake** keeps your Mac awake; **Network Speed** shows upload and download rates.
 
-## Alpha
+## Download
 
-The first build is being prepared for invited testers. No download is available yet.
+[Download the alpha from Releases](https://github.com/severiadev/menuduck/releases).
 
-Early builds will have no Developer ID signature or Apple notarization. Read the [installation guide](docs/ALPHA_GUIDE.md) before installing.
+The alpha has no Developer ID signature or Apple notarization. Follow the [installation guide](docs/ALPHA_GUIDE.md) for first launch.
 
-[Releases](https://github.com/severiadev/menuduck/releases) · [Changelog](CHANGELOG.md) · [Feedback](SUPPORT.md) · [Privacy](PRIVACY.md)
+[Changelog](CHANGELOG.md) · [Feedback](SUPPORT.md) · [Privacy](PRIVACY.md)
 
 This repository contains release files and documentation. The app's source code is private.
