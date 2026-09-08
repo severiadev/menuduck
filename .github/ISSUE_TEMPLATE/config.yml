@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Installation and first launch / Установка и первый запуск
+    url: https://github.com/severiadev/menuduck/blob/main/docs/ALPHA_GUIDE.md
+    about: Read the alpha guide before installing a build without Developer ID.
+  - name: License, privacy, or security / Лицензия, данные, безопасность
+    url: https://github.com/severiadev/menuduck/blob/main/SUPPORT.md
+    about: Find the private support route. Never post keys or sensitive details in public issues.

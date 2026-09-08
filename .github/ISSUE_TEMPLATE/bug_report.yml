@@ -1,0 +1,64 @@
+name: Bug report / Ошибка
+description: Report one reproducible problem without personal data.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        English or Russian is welcome. This report will be public.
+        Do not include license keys, tokens, serial numbers, private files, or unreviewed diagnostics.
+        For security and license concerns, contact your alpha organizer privately instead.
+  - type: input
+    id: version
+    attributes:
+      label: MenuDuck version and build / Версия и сборка
+      description: Copy the version and build shown by the app. Do not paste a license key.
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version / Версия macOS
+    validations:
+      required: true
+  - type: dropdown
+    id: architecture
+    attributes:
+      label: Mac processor / Процессор
+      options:
+        - Apple silicon
+        - Intel
+        - Not sure / Не знаю
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / Как повторить
+      description: Include the relevant setting or plugin and whether it happens every time.
+      placeholder: |
+        1. Open…
+        2. Choose…
+        3. Observe…
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result / Ожидание и результат
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context / Дополнительно
+      description: Optional display setup, wallpaper type, other menu-bar utilities, or a reviewed screenshot. No serial numbers or private data.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Before submitting / Перед отправкой
+      options:
+        - label: I searched existing issues. / Я проверил существующие Issues.
+          required: true
+        - label: I checked the text and attachments and removed secrets and personal data. / Я убрал секреты и личные данные.
+          required: true

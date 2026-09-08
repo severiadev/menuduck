@@ -1,0 +1,35 @@
+name: Feature idea / Предложение
+description: Describe the problem you would like MenuDuck to solve.
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        English or Russian is welcome. If a plugin is already Planned in the app,
+        I Need It is the quick way to register interest once the alpha is live.
+        Use this form to add context or suggest something different. It is not a delivery commitment.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is difficult today? / Что сейчас неудобно?
+      description: Describe a real task or situation, without personal data.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Suggested improvement / Предложение
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Current workaround / Как решаете сейчас?
+      description: Optional. Explain why the current approach is not enough.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Before submitting / Перед отправкой
+      options:
+        - label: I searched existing ideas and removed secrets and personal data. / Я проверил похожие предложения и убрал личные данные.
+          required: true
