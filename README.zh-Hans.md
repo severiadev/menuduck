@@ -10,8 +10,9 @@
   <a href="README.md">English</a> · <a href="README.ru.md">Русский</a> · <a href="README.es.md">Español</a> · 简体中文
 </p>
 
-- 隐藏和显示菜单栏图标，支持自动隐藏和快捷键。
-- 遮盖刘海、调整屏幕圆角，或在支持的显示器上将菜单栏移至摄像头下方。
+- 隐藏和显示菜单栏图标。
+- 使用静态壁纸工具、遮盖刘海，或将菜单栏移至摄像头下方。
+- Pro 提供自动化、配置文件、Quick Reveal 和外观控制。
 - 可选插件：**Stay Awake** 防止 Mac 进入睡眠；**Network Speed** 显示上传和下载速度。
 
 ## 下载

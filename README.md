@@ -10,8 +10,9 @@
   English · <a href="README.ru.md">Русский</a> · <a href="README.es.md">Español</a> · <a href="README.zh-Hans.md">简体中文</a>
 </p>
 
-- Hide and reveal menu-bar icons, with auto-hide and keyboard shortcuts.
-- Mask the notch, adjust screen corners, or move the menu bar below the camera on supported displays.
+- Hide and reveal menu-bar icons.
+- Use static wallpaper tools, mask the notch, or move the menu bar below the camera.
+- Pro adds automation, profiles, Quick Reveal, and appearance controls.
 - Optional plugins: **Stay Awake** keeps your Mac awake; **Network Speed** shows upload and download rates.
 
 ## Download

@@ -10,8 +10,9 @@
   <a href="README.md">English</a> · <a href="README.ru.md">Русский</a> · Español · <a href="README.zh-Hans.md">简体中文</a>
 </p>
 
-- Oculta y muestra iconos, con ocultación automática y atajos de teclado.
-- Disimula la muesca, ajusta las esquinas de la pantalla o desplaza la barra de menús debajo de la cámara en pantallas compatibles.
+- Oculta y muestra iconos de la barra de menús.
+- Usa fondos estáticos, disimula la muesca o desplaza la barra debajo de la cámara.
+- Pro añade automatización, perfiles, Quick Reveal y controles de apariencia.
 - Plugins opcionales: **Stay Awake** mantiene el Mac despierto; **Network Speed** muestra la velocidad de subida y descarga.
 
 ## Descargar
