@@ -6,7 +6,7 @@ This page describes the alpha's data handling, including online requests and ser
 
 ## On your Mac
 
-MenuDuck stores preferences, plugin state, wallpaper assets, recovery information, and diagnostic events locally. Stored license secrets use macOS Keychain. Local diagnostics may contain paths and details about your display or configuration; review them before sharing.
+MenuDuck stores preferences, plugin state, wallpaper assets, recovery information, and diagnostic events locally. Its installation ID and signed offline license document use macOS Keychain. After a successful activation or migration, MenuDuck verifies and saves the signed document before removing the full license key. Local diagnostics may contain paths and details about your display or configuration; review them before sharing.
 
 ## When you choose an online action
 
@@ -15,9 +15,11 @@ MenuDuck stores preferences, plugin state, wallpaper assets, recovery informatio
 | Update Catalog | A request for the published catalog; no app-generated account or installation identifier is attached to this download. | Update plugin listings and package metadata. |
 | Install a plugin | A request for the selected package; the download does not attach your license key. | Retrieve the package you selected. |
 | I Need It / Remove Vote | Plugin ID when voting, and a random vote token used to record or remove the vote. | Keep one record for that token and support removing it. |
-| Enter / Refresh License | License key, requested product context, and a random installation ID. | Check entitlement, expiry, revocation, and the activation limit. |
+| Enter / Migrate License | License key, requested product context, and the existing random installation ID. | Issue an installation-bound signed license document and enforce the activation limit. |
 
 The vote service stores the token's hash, plugin ID, and creation time. License records include the key's hash, a masked key, the organizer-assigned tester label, entitlement and validity details, and activation records with a hashed installation ID. A hash or random identifier is not the same as guaranteed anonymity. License keys are transmitted to the activation service over HTTPS; they are not stored there as plaintext keys.
+
+MenuDuck does not make background license requests. At launch and during feature checks, it verifies the saved signed document locally, including its product, installation binding, rights, and expiry. An administrative activation reset affects future server activations but cannot revoke an already issued offline document; it remains valid until its signed expiry, or indefinitely when explicitly perpetual. Removing a license locally does not release its server activation slot.
 
 The app exposes controls under **Privacy & Permissions** for its online features. Disabling a permission stops the corresponding permitted flow; it does not itself request erasure of records already stored on the server. Use **Remove Vote** for a vote, and contact your test organizer privately for license or data questions.
 
