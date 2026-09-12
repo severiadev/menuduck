@@ -2,7 +2,7 @@
 
 [MenuDuck](../README.md) · English · [Русский](ALPHA_GUIDE.ru.md) · [Español](ALPHA_GUIDE.es.md) · [简体中文](ALPHA_GUIDE.zh-Hans.md)
 
-Requires **macOS 26+**. This is an alpha without Developer ID signing or Apple notarization. Keep a backup and install only if you trust the source.
+Requires **macOS 14+**. This is an alpha without Developer ID signing or Apple notarization. Keep a backup and install only if you trust the source.
 
 ## Installation
 

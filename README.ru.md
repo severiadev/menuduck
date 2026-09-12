@@ -4,7 +4,7 @@
 
 <h1 align="center">MenuDuck</h1>
 
-<p align="center">Утилита для строки меню macOS 26+.</p>
+<p align="center">Утилита для строки меню macOS 14+.</p>
 
 <p align="center">
   <a href="README.md">English</a> · Русский · <a href="README.es.md">Español</a> · <a href="README.zh-Hans.md">简体中文</a>

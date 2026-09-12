@@ -4,7 +4,7 @@
 
 <h1 align="center">MenuDuck</h1>
 
-<p align="center">Una utilidad para la barra de menús de macOS 26+.</p>
+<p align="center">Una utilidad para la barra de menús de macOS 14+.</p>
 
 <p align="center">
   <a href="README.md">English</a> · <a href="README.ru.md">Русский</a> · Español · <a href="README.zh-Hans.md">简体中文</a>

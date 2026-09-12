@@ -4,7 +4,7 @@
 
 <h1 align="center">MenuDuck</h1>
 
-<p align="center">适用于 macOS 26 及以上版本的菜单栏工具。</p>
+<p align="center">适用于 macOS 14 及以上版本的菜单栏工具。</p>
 
 <p align="center">
   <a href="README.md">English</a> · <a href="README.ru.md">Русский</a> · <a href="README.es.md">Español</a> · 简体中文

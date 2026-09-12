@@ -2,7 +2,7 @@
 
 [MenuDuck](../README.es.md) · [English](ALPHA_GUIDE.md) · [Русский](ALPHA_GUIDE.ru.md) · Español · [简体中文](ALPHA_GUIDE.zh-Hans.md)
 
-Requiere **macOS 26+**. Es una alfa sin firma Developer ID ni notarización de Apple. Haz una copia de seguridad e instálala solo si confías en su origen.
+Requiere **macOS 14+**. Es una alfa sin firma Developer ID ni notarización de Apple. Haz una copia de seguridad e instálala solo si confías en su origen.
 
 ## Instalación
 

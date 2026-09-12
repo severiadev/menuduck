@@ -2,7 +2,7 @@
 
 [MenuDuck](../README.zh-Hans.md) · [English](ALPHA_GUIDE.md) · [Русский](ALPHA_GUIDE.ru.md) · [Español](ALPHA_GUIDE.es.md) · 简体中文
 
-需要 **macOS 26 或更高版本**。这是 Alpha 版，未使用 Developer ID 签名，也未经 Apple 公证。请先备份，并仅在信任来源时安装。
+需要 **macOS 14 或更高版本**。这是 Alpha 版，未使用 Developer ID 签名，也未经 Apple 公证。请先备份，并仅在信任来源时安装。
 
 ## 安装
 
