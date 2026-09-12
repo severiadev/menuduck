@@ -4,10 +4,22 @@
 
 ## 0.4.4 pre-alpha
 
-- Added a universal Apple silicon and Intel build with a macOS 14.0 minimum.
-- Moved Stay Awake and permission-sensitive plugin work into isolated helper processes.
-- Added safer plugin package validation, interrupted-update recovery, and normal-quit handling.
-- Withheld the new Stay Awake package until signed distribution validation is complete.
+This release consolidates the current public pre-alpha feature set:
+
+- Hide and reveal menu-bar icons, including Quick Reveal and keyboard shortcuts.
+- Mask the notch, use static-wallpaper tools, and adjust menu-bar positioning and appearance.
+- Use Free and Pro modes with profiles, shortcuts, and automation controls.
+- Activate Pro offline without background license checks; Free startup avoids Keychain access.
+- Refresh the plugin catalog, run the Network Speed plugin, validate plugin packages, and recover interrupted updates.
+- Run natively on Apple silicon and Intel with a macOS 14.0 minimum.
+- Isolate Stay Awake and permission-sensitive plugin runtimes from the main app.
+- Quit normally without leaving managed helper processes behind.
+
+Current limitations:
+
+- The new Stay Awake package is withheld until signed distribution validation is complete.
+- Real-system validation on macOS 14 and Intel remains pending.
+- The downloadable build is ad-hoc signed and not notarized.
 
 ## 0.4.3 alpha
 
